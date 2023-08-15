@@ -8,7 +8,7 @@ import java.util.*;
 public class WordFrequencyCounter {
 
     public static void main(String[] args) {
-        Map<String, Integer> wordFrequency = countWordFrequency("D:\\Kurs\\HomeWork10_1\\src\\main\\java\\com\\example\\words.txt");
+        Map<String, Integer> wordFrequency = countWordFrequency("src/main/java/com/example/words.txt");
         printWordFrequency(wordFrequency);
     }
 

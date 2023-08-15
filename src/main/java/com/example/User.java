@@ -31,8 +31,8 @@ public class User {
 
 
     public static void main(String[] args) {
-        List<User> users = readUsersFromFile("D:\\Kurs\\HomeWork10_1\\src\\main\\java\\com\\example\\file.txt");
-        writeUsersToJsonFile(users, "D:\\Kurs\\HomeWork10_1\\src\\main\\java\\com\\example\\user.json");
+        List<User> users = readUsersFromFile("src/main/java/com/example/file1.txt");
+        writeUsersToJsonFile(users, "src/main/java/com/example/user.json");
     }
 
     public static List<User> readUsersFromFile(String fileName) {
